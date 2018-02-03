@@ -1,0 +1,157 @@
+<header class="">
+      
+        <button class="btn btn-outline-secondary m-4 font-weight-bold" onclick=window.history.back() style="border-radius: 24px; border: 4px solid lightgrey; font-size: 20px;">&nbsp;{{fa-icon "angle-left font-weight-bold"}}&nbsp;&nbsp;Back&nbsp;&nbsp;</button>
+       
+      </header>
+
+<main>
+
+     
+          <h1 class="font-weight-bold text-center">Choose a service</h1> 
+          <p id="step_no" class=" text-center text-secondary">Step 1 of 6</p>
+
+<!-- this is the search bar -->
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-7">
+    <div class="form-group ">  
+      <input id="service-search" type="search" placeholder="Search services" class="form-control center thickBorder" autofocus style="font-size: 1.6em;font-weight: bold;">
+    </div>
+  </div>
+</div>
+</div>
+<!-- end of search bar -->
+
+<section class="row m-0">
+
+        {{#link-to 'facebook' class="col-lg-2 col-sm-4 col-md-3 p-0 text-white" }}
+           
+          <div class="card m-0 p-0 bg-facebook">
+            <i class="some fa fa-facebook-square text-center"></i>
+            <div class="card-body align-middle">
+              <h5 class="card-title text-center">Facebook</h5>          
+            </div>  
+          </div>
+          
+        {{/link-to}}
+    
+     
+      {{#link-to 'email' class="col-lg-2 col-sm-4 col-md-3 p-0 text-white" }}
+          
+        <div class="card m-0 p-0 bg-primary">
+          <i class="some fa fa-envelope fa-5x text-center"></i>
+          <div class="card-body align-middle">
+            <h5 class="card-title text-center">Email</h5>          
+          </div>  
+       
+        </div>
+      {{/link-to}}
+
+      {{#link-to 'rss' class="col-lg-2 col-sm-4 col-md-3 p-0 text-white" }}
+          <div class="card m-0 p-0 bg-rss">
+            <i class="some fa fa-rss fa-5x text-center"></i>
+            <div class="card-body align-middle">
+              <h5 class="card-title text-center">RSS Feed</h5>          
+            </div>  
+          </div>
+         
+        {{/link-to}}
+
+        <a class="col-lg-2 col-sm-4 col-md-3 p-0 text-white" href="#">
+           
+            <div class="card m-0 p-0 bg-red">
+              <i class="some fa fa-youtube-play fa-5x text-center"></i>
+              <div class="card-body align-middle">
+                <h5 class="card-title text-center">YouTube</h5>          
+              </div>  
+            </div>
+           
+          </a>
+
+          <a class="col-lg-2 col-sm-4 col-md-3 p-0 text-white" href="#">
+             
+              <div class="card m-0 p-0 bg-info">
+                <i class="some fa fa-twitter fa-5x text-center"></i>
+                <div class="card-body align-middle">
+                  <h5 class="card-title text-center">Twitter</h5>          
+                </div>  
+              </div>
+              
+          </a>
+
+          <a class="col-lg-2 col-sm-4 col-md-3 p-0 text-white" href="#">
+              
+              <div class="card m-0 p-0 bg-success">
+                <i class="some fa fa-envelope fa-5x text-center"></i>
+                <div class="card-body align-middle">
+                  <h5 class="card-title text-center">SMS</h5>          
+                </div>  
+              </div>
+             
+          </a>
+
+          <a class="col-lg-2 col-sm-4 col-md-3 p-0 text-white" href="#">
+             
+              <div class="card m-0 p-0 bg-warning">
+                <i class="some fa fa-envelope fa-5x text-center"></i>
+                <div class="card-body align-middle">
+                  <h5 class="card-title text-center">Card title</h5>          
+                </div>  
+              </div>
+              
+          </a>
+      
+         
+          <a class="col-lg-2 col-sm-4 col-md-3 p-0 text-white" href="services.php?serv=time">
+              
+              <div class="card m-0 p-0 w3-dark-grey">
+                <i class="some fa fa-clock-o fa-5x text-center"></i>
+                <div class="card-body align-middle">
+                  <h5 class="card-title text-center">Time&Date</h5>          
+                </div>  
+              </div>
+              
+          </a>
+
+          <a class="col-lg-2 col-sm-4 col-md-3 p-0 text-white" href="services.php?serv=insta">
+              
+              <div class="card m-0 p-0 w3-pink">
+                <i class="some fa fa-instagram fa-5x text-center"></i>
+                <div class="card-body align-middle">
+                  <h5 class="card-title text-center">Instagram</h5>          
+                </div>  
+              </div>
+              
+          </a>
+
+          <a class="col-lg-2 col-sm-4 col-md-3 p-0 text-white" href="services.php?serv=scloud">              
+              <div class="card m-0 p-0 w3-deep-orange">
+                <i class="some fa fa-soundcloud fa-5x text-center"></i>
+                <div class="card-body align-middle">
+                  <h5 class="card-title text-center">SoundCloud</h5>          
+                </div>  
+              </div>          
+          </a>
+
+          <a class="col-lg-2 col-sm-4 col-md-3 p-0 text-white" href="services.php?serv=spotify">              
+              <div class="card m-0 p-0 w3-light-green">
+                <i class="some fa fa-spotify fa-5x text-center"></i>
+                <div class="card-body align-middle">
+                  <h5 class="card-title text-center">Spotify</h5>          
+                </div>  
+              </div>          
+          </a>
+
+          <a class="col-lg-2 col-sm-4 col-md-3 p-0 text-white" href="services.php?serv=wiki">              
+              <div class="card m-0 p-0 bg-dkr-grey">
+                <i class="some fa fa-wikipedia-w fa-5x text-center"></i>
+                <div class="card-body align-middle">
+                  <h5 class="card-title text-center">Wikipedia</h5>          
+                </div>  
+              </div>          
+          </a>
+ 
+</section>
+
+
+</main>

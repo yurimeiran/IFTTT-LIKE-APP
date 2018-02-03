@@ -7,6 +7,14 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('services');
+  this.route('service-list');
+  this.route('facebook');
+  this.route('rss', function() {
+    this.route('0');
+    this.route('trig');
+  });
+  this.route('email');
 });
 
 export default Router;
